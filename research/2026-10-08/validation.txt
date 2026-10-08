@@ -1,0 +1,23 @@
+Validation date: 2026-10-08 (Asia/Seoul)
+Runtime: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+
+test_all_split_points (test_programs.FrameTests.test_all_split_points) ... ok
+test_corruption_resync_duplicate (test_programs.FrameTests.test_corruption_resync_duplicate) ... ok
+test_known_crc_vector (test_programs.FrameTests.test_known_crc_vector) ... ok
+test_noise_buffer_is_bounded (test_programs.FrameTests.test_noise_buffer_is_bounded) ... ok
+test_http_routes (test_programs.GuardTests.test_http_routes) ... ok
+test_stale_range_nonfinite_and_interlock (test_programs.GuardTests.test_stale_range_nonfinite_and_interlock) ... ok
+test_valid_does_not_actuate (test_programs.GuardTests.test_valid_does_not_actuate) ... ok
+test_future_and_duplicate_excluded (test_programs.RadarTests.test_future_and_duplicate_excluded) ... ok
+test_sources_and_matching (test_programs.RadarTests.test_sources_and_matching) ... ok
+test_duplicate_and_shuffle (test_programs.ReplayTests.test_duplicate_and_shuffle) ... ok
+test_html_escape (test_programs.ReplayTests.test_html_escape) ... ok
+test_time_cutoff (test_programs.ReplayTests.test_time_cutoff) ... ok
+test_degenerate_training (test_programs.ThermalTests.test_degenerate_training) ... ok
+test_held_out_statuses (test_programs.ThermalTests.test_held_out_statuses) ... ok
+test_invalid_split (test_programs.ThermalTests.test_invalid_split) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.511s
+
+OK
